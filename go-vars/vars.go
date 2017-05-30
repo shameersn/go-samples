@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+var x = 12
+
 func main() {
 	a := 10
 	b := "String"
@@ -14,4 +16,5 @@ func main() {
 	fmt.Printf("%T \t %v \n", b, b)
 	fmt.Printf("%T \t %v \n", c, c)
 	fmt.Printf("%T \t %v \n", d, d)
+	fmt.Printf("%T \t %v \n", x, x)
 }
